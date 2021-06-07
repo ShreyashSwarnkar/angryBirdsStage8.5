@@ -47,8 +47,7 @@ function setup(){
 }
 
 function draw(){
-    if(backgroundImg)
-        background(backgroundImg);
+    background("sprites/bg1.png");
     
         noStroke();
         textSize(35)
